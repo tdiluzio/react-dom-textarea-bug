@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-dom-textarea-bug/static/css/main.f93d1d84.chunk.css",
+    "main.js": "/react-dom-textarea-bug/static/js/main.fc129407.chunk.js",
+    "main.js.map": "/react-dom-textarea-bug/static/js/main.fc129407.chunk.js.map",
+    "runtime-main.js": "/react-dom-textarea-bug/static/js/runtime-main.dd5d3075.js",
+    "runtime-main.js.map": "/react-dom-textarea-bug/static/js/runtime-main.dd5d3075.js.map",
+    "static/js/2.fc3f8449.chunk.js": "/react-dom-textarea-bug/static/js/2.fc3f8449.chunk.js",
+    "static/js/2.fc3f8449.chunk.js.map": "/react-dom-textarea-bug/static/js/2.fc3f8449.chunk.js.map",
+    "index.html": "/react-dom-textarea-bug/index.html",
+    "precache-manifest.4d556897b841e62185bb1adee7d153b1.js": "/react-dom-textarea-bug/precache-manifest.4d556897b841e62185bb1adee7d153b1.js",
+    "service-worker.js": "/react-dom-textarea-bug/service-worker.js",
+    "static/css/main.f93d1d84.chunk.css.map": "/react-dom-textarea-bug/static/css/main.f93d1d84.chunk.css.map",
+    "static/js/2.fc3f8449.chunk.js.LICENSE.txt": "/react-dom-textarea-bug/static/js/2.fc3f8449.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd5d3075.js",
+    "static/js/2.fc3f8449.chunk.js",
+    "static/css/main.f93d1d84.chunk.css",
+    "static/js/main.fc129407.chunk.js"
+  ]
+}
