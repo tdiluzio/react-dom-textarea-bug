@@ -1,24 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
 
 function App() {
+  const [state, setState] = useState({
+    first: '',
+    second: '',
+  });
+
+  function handleTextChange({ target }) {
+    const { name, value, validity } = target;
+
+    setState({
+      [name]: value,
+    });
+
+    console.log(`${name} validity:`, validity);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <textarea
+        name="first"
+        placeholder="First"
+        value={state.first}
+        onChange={handleTextChange}
+        required={true}
+        minLength={10}
+      />
+
+      <textarea
+        name="second"
+        placeholder="Second"
+        onChange={handleTextChange}
+        required={true}
+        minLength={10}
+      >
+        {state.second}
+      </textarea>
     </div>
   );
 }
